@@ -1,4 +1,4 @@
-#Facebook page feed scanner
+# Facebook page feed scanner
 
 Implement facebook page feed scanner.  
 In this case you can use Long Lived User Access token to get feed from you'r example FB Page.  
@@ -6,7 +6,7 @@ Use InboxItem to represent posts and comment ( subcomment ).
 Prepare command for print the result before you send it to ZMQ
 
 
-##Example
+## Example
 
 ``php app app:feed 105477064851833``
 
