@@ -1,9 +1,14 @@
 # Facebook page feed scanner
 
 Implement facebook page feed scanner.  
-In this case you can use Long Lived User Access token to get feed from you'r example FB Page.  
+In this case you can use simple FB Graph Api MOCK.
+
 Use InboxItem to represent posts and comment ( subcomment ).   
 Prepare command for print the result
+
+### Mock
+- Feed: ``https://demo7860391.mockable.io/105477064851833/feed``
+- Comment: ``https://demo7860391.mockable.io/{{$OBJECT_ID}}/comments``
 
 
 ## Example
@@ -31,6 +36,12 @@ Flat array:
 105477468185126_105478384851701: Testowa strona Drugi komentarz => 105477468185126_105477574851782
 105477468185126_105495888183284: Drugi subcoment => 105477468185126_105477574851782
 ````
+
+
+### Help:
+
+https://symfony.com/doc/4.4/console.html#console-output
+
 
 
 
