@@ -7,8 +7,8 @@ Use InboxItem to represent posts and comment ( subcomment ).
 Prepare command for print the result
 
 ### Mock
-- Feed: ``https://demo7860391.mockable.io/105477064851833/feed``
-- Comment: ``https://demo7860391.mockable.io/{{$OBJECT_ID}}/comments``
+- Feed: ``https://demo4003292.mockable.io/105477064851833/feed``
+- Comment: ``https://demo4003292.mockable.io/{{$OBJECT_ID}}/comments``
 
 
 ## Example
